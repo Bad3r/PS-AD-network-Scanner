@@ -1,5 +1,11 @@
 # PS-AD-network-Scanner
 
+```powershell
+iwr -uri https://raw.githubusercontent.com/Bad3r/PS-AD-network-Scanner/refs/heads/main/EnhancedADScan.ps1 -Outfile EnhancedADScan.ps1
+# or
+iwr -uri https://cdn.unsigned.sh/EnhancedADScan.ps1 -Outfile EnhancedADScan.ps1
+```
+
 ## Overview
 
 The **PS-AD-network-Scanner** is a PowerShell script designed to perform enhanced network scanning and analysis within Active Directory (AD) environments. It identifies AD services and Windows hosts, conducts port scans, performs service detection, and collects basic AD information, all without needing administrative privileges for basic scanning.
